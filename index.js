@@ -112,3 +112,16 @@ var square1 = square(n)
 var cube1 = cube(n)
 
 
+
+
+const radiuses = [3,4,8,9,12]
+
+function circumference(r){
+    return Math.PI*2*r;
+}
+function area(r){
+    return Math.PI*r*r;
+}
+function diameter(r){
+    return 2*r;
+}

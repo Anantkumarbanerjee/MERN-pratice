@@ -76,5 +76,26 @@ else {
 }
 
 
+function verbing(k){
+
+    var y = k.length-1;
+    if(k.length<3){
+        return
+    }
+
+    else{
+        if(k[y]=='g' && k[y-1]=='n' && k[y-2]=='i'){
+            console.log(k+'ly');
+            
+        }
+
+        else{
+            console.log(k+'ing');
+        }
+    }
+}
+
+console.log(verbing('ping'))
+
 
 

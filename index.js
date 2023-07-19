@@ -125,3 +125,14 @@ function area(r){
 function diameter(r){
     return 2*r;
 }
+
+
+
+
+const numbers = [10, 5, 8, 15, 3];
+
+const binaryEquivalents = numbers.map((number) => {
+  return number.toString(2);
+});
+
+console.log(binaryEquivalents);

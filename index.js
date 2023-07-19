@@ -98,4 +98,17 @@ function verbing(k){
 console.log(verbing('ping'))
 
 
+var n =2;
+function square(num){
+    var ans = num*num
+    return ans
+}
+
+function cube(num){
+    var ans = num*num*num
+    return ans
+}
+var square1 = square(n)
+var cube1 = cube(n)
+
 

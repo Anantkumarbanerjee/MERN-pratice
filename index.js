@@ -163,6 +163,18 @@ const transaction = [
     {type: "expense", amount:700},
 ];
 
+const totalBalance = transaction.reduce((accumulator,currentNumber)=>
+{
+    if(transaction.type === "income"){
+        return accumulator + currentNumber;
+    }
+
+    else{
+        return accumulator - currentNumber;
+    }
+},0
+);
+
 function calculateBalance(transaction){
     const op = 0;
     for(let i = 0 ; i<transaction.length ; i++){
